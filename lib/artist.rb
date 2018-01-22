@@ -22,7 +22,7 @@ class Artist
 
   def self.find_or_create_by_name(name)
    if self.find(name)
-     self.create(name)
+      self.create(name)
    else
      self.find(name)
    end 
