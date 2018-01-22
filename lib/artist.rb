@@ -25,7 +25,7 @@ class Artist
       self.create(name)
    else
      self.find(name)
-   end 
+   end
  end
 
  def self.find(name)
